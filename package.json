@@ -1,0 +1,19 @@
+{
+  "name": "code-sketches",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:corrinachow/code-sketches.git",
+  "author": "Corrina Chow <hello@corrinachow.com",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "npm test"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "devDependencies": {
+    "husky": "^4.2.5"
+  }
+}
